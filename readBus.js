@@ -59,9 +59,6 @@ function getItemList(response) {
 }
 
 async function getStationInfo(busRoutes) {
-    // return busRouteIds.map(async busRouteId => {
-    //     return getItemList(await getResponseText(busRouteId.sttn_id))
-    // })
     const itemListArr = []
     for (const busRoute of busRoutes) {
         itemListArr.push(getItemList(await getResponseText(busRoute.sttn_id)))
