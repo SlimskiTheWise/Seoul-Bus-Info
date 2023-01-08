@@ -1,0 +1,17 @@
+{
+  "name": "bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "xml-js": "^1.6.11",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
